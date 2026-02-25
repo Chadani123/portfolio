@@ -1,0 +1,65 @@
+@import "../../_globalColor";
+
+/* SECTION */
+#skills {
+  padding-top: 48px;
+}
+
+#skills.main {
+  margin-top: -1rem;
+}
+
+/* MAIN WRAPPER */
+.skills-main-div {
+  width: 100%;
+}
+
+/* TITLE — stays LEFT, does NOT move with grid */
+.skills-left {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.skills-heading {
+  font-size: 56px;
+  font-weight: 400;
+  margin-bottom: 36px;
+  text-align: left;
+}
+
+/* GRID — centered, balanced */
+.skills-grid {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(340px, 1fr));
+  gap: 40px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1400px) {
+  .skills-heading {
+    font-size: 44px;
+  }
+
+  .skills-grid {
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .skills-heading {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, minmax(320px, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}

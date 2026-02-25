@@ -1,0 +1,10 @@
+{
+  "short_name": "Chadani",
+  "name": "Chadani Acharya",
+  "icons": [
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#6c63ff",
+  "background_color": "#ffffff"
+}

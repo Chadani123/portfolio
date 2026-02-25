@@ -1,0 +1,127 @@
+@import "../../_globalColor";
+
+.publications-heading {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
+}
+.publications-subtitle {
+  text-transform: uppercase;
+  margin: 0px;
+  margin-bottom: 50px;
+}
+
+.publications-main-div {
+  width: 100%;
+}
+
+.publications-cards-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem 1rem;
+  margin-top: 30px;
+}
+
+.publications-header {
+  margin-bottom: 0;
+}
+
+.publications-subtitle {
+  margin-bottom: 30px;
+}
+
+.publication-card {
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: 1px solid $lightBorder1;
+  background-color: $lightBackground2;
+  transition: all 0.3s ease;
+}
+
+.dark-mode .publication-card {
+  background-color: $darkBackground;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.publication-card:hover {
+  transform: translateY(-5px);
+  box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
+}
+
+.dark-mode .publication-card:hover {
+  box-shadow: $achievementCertificateCardHoverDark 0px 20px 30px -10px;
+}
+
+.publication-detail-div {
+  width: 100%;
+}
+
+.publication-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: $textColor;
+}
+
+.dark-mode .publication-title {
+  color: $textColorDark;
+}
+
+.publication-authors {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  color: $subTitle;
+}
+
+.dark-mode .publication-authors {
+  color: $subTitle;
+}
+
+.publication-journal {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  color: $subTitle;
+}
+
+.dark-mode .publication-journal {
+  color: $subTitle;
+}
+
+.publication-status {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  background-color: $buttonColor;
+  color: white;
+}
+
+.dark-mode .publication-status {
+  background-color: $buttonColor;
+  color: white;
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .publications-heading {
+    font-size: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .publications-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+  .publications-subtitle {
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+  }
+  .publications-cards-div {
+    grid-template-columns: 1fr;
+  }
+}
+
