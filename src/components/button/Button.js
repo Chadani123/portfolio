@@ -1,3 +1,5 @@
+// src/components/button/Button.js
+
 import React from "react";
 import "./Button.scss";
 

@@ -15,9 +15,9 @@ const greeting = {
   username: "Chadani Acharya",
   title: "Howdy, I'm Chadani",
   subTitle:
-    " A product-focused Certified ScrumMaster with proven experience delivering digital accessibility remediation at scale, including 10,000+ course files aligned to WCAG/ADA standards. Specialized in product strategy, agile delivery, stakeholder alignment, and scalable accessibility workflows. Demonstrated success prioritizing work, streamlining delivery, and reducing cycle time by ~20–30%.",
+    "Program + product delivery lead with a QA backbone. I’ve managed 35+ Agile sprints and now lead accessibility remediation at Texas A&M (10,000+ files), coordinating a 20+ person team and 50+ trainings. I turn messy requirements into clear scope, smooth delivery, and reliable quality through Agile best practices, stakeholder alignment, and strong cross-functional collaboration.",
   resumeLink:
-    "https://drive.google.com/drive/u/0/folders/1MTI5QxaYf5DluxRyJZjgPb4Zk33HB1zP",
+    "https://drive.google.com/file/d/1qYz5bquw8HrLQF4zR0ufTD8JV0uBa81t/preview",
   displayGreeting: true,
 };
 
