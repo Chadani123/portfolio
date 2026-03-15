@@ -65,7 +65,7 @@ function Header() {
           )}
           {viewLeadership && (
             <li>
-              <a href="#leadership">Leaderships</a>
+              <a href="#leadership">Leadership & Awards</a>
             </li>
           )}
 

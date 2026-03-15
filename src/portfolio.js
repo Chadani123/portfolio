@@ -563,7 +563,53 @@ const bigProjects = {
 };
 
 const leadershipSection = {
-  title: "Leadership",
+  title: "Leadership & Awards",
+  subtitle: "Leadership roles, community service, and recognitions",
+  experiences: [
+    {
+      organization: "Nepalese Student Association, Texas A&M University",
+      year: "2025-2026",
+      role: "Vice President",
+      description:
+        "Supported student engagement, event planning, and community-building initiatives for the Nepali student community at Texas A&M.",
+    },
+    {
+      organization: "The Big Event, Texas A&M University",
+      year: "2025",
+      role: "Volunteer",
+      description:
+        "Participated in Texas A&M's university-wide community service event, contributing volunteer support for local residents.",
+    },
+    {
+      organization: "Aarambha Foundation, Kathmandu Chapter",
+      year: "2015",
+      role: "Central Committee Member",
+      description:
+        "Contributed to chapter activities and supported youth-focused community initiatives as part of the central committee.",
+    },
+    {
+      organization:
+        "Junior Red Cross Circle, Shree Golden Sunrise English Secondary Boarding School",
+      year: "2014",
+      role: "President",
+      description:
+        "Led student service activities and promoted teamwork, responsibility, and community participation within the school.",
+    },
+    {
+      organization: "Youth Poetry Competition",
+      year: "2020",
+      role: "First Place Winner",
+      description:
+        "Won first place in a youth poetry competition organized by Daya Foundation and Rotary Club of Kathmandu Midtown in collaboration with UNICEF Nepal, with a poem focused on emotional well-being and cultural identity.",
+    },
+    {
+      organization: "PABSON-Level Poem Competition, Jhapa, Nepal",
+      year: "2013",
+      role: "Second Place",
+      description:
+        "Received second place in a regional-level poem competition recognizing writing and creative expression on open themes.",
+    },
+  ],
   display: true,
 };
 

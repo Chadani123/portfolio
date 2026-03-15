@@ -1,0 +1,96 @@
+@import "../../_globalColor";
+
+.leadership-heading {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+.leadership-subtitle {
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.leadership-cards-div {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.leadership-card {
+  border-radius: 10px;
+  padding: 18px;
+  transition: all 0.3s ease;
+}
+
+.leadership-card-light {
+  background-color: $lightBackground2;
+  box-shadow: $lightBoxShadowDark 0 10px 30px -15px;
+}
+
+.leadership-card-dark {
+  background-color: $darkBackground;
+  box-shadow: $darkBoxShadow2 0 10px 30px -15px;
+}
+
+.leadership-card:hover {
+  transform: translateY(-4px);
+}
+
+.leadership-org {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.leadership-meta {
+  margin-top: 10px;
+  margin-bottom: 6px;
+  color: $subTitle;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.leadership-role {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.leadership-description {
+  margin-top: 10px;
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+@media (max-width: 1380px) {
+  .leadership-heading {
+    font-size: 40px;
+  }
+
+  .leadership-org {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .leadership-cards-div {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .leadership-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .leadership-subtitle {
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+  }
+}
