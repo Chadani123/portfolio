@@ -17,7 +17,7 @@ const greeting = {
   subTitle:
     "Program + product delivery lead with a QA backbone. I’ve managed 35+ Agile sprints and now lead accessibility remediation at Texas A&M (10,000+ files), coordinating a 20+ person team and 50+ trainings. I turn messy requirements into clear scope, smooth delivery, and reliable quality through Agile best practices, stakeholder alignment, and strong cross-functional collaboration.",
   resumeLink:
-    "https://drive.google.com/file/d/1qYz5bquw8HrLQF4zR0ufTD8JV0uBa81t/preview",
+    "https://drive.google.com/file/d/1fD3JAAr0dZcnMDChXWLTzDiln9T5wviX/preview",
   displayGreeting: true,
 };
 
@@ -424,7 +424,7 @@ const workExperiences = {
       role: "Project Manager",
       company: "Abhiyantrik Technology",
       companylogo: require("./assets/images/abhiyantrik.png"),
-      date: "Sept 2021 – Jan 2024",
+      date: "May 2023 – July 2024",
       desc: "",
       descBullets: [
        "Managed end-to-end delivery across 35+ Agile sprints using Trello by planning scope, sequencing work, and tracking dependencies through release.",
@@ -439,7 +439,7 @@ const workExperiences = {
       role: "Software Quality Analyst",
       company: "Abhiyantrik Technology",
       companylogo: require("./assets/images/abhiyantrik.png"),
-      date: "Sept 2019 – Sept 2021",
+      date: "May 2022 – May 2023",
       desc: "",
       descBullets: [
         "Designed and executed 30–350 test cases per project to validate core flows, edge cases, and user experience across releases.",
